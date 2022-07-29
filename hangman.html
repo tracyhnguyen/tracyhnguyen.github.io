@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html id = "hangman">
+<head>
+    <title>Hangman</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <div id = "navbar">
+        <a href = "index.html">HOME</a>
+        <a href = "about.html">ABOUT</a>
+        <a href = "projects.html">PROJECTS</a>
+        <a href = "contact.html">CONTACT</a>
+    </div>
+</head>
+<body>
+    <h1>Hangman</h1>
+    <a href = "hangman.html">Click here to play!</a>
+    <script>
+        var name = prompt("What's your name?");
+        console.log("hello " + name + "\nGuess Log:\n");
+        var words = [
+            "apricot", "breakfast", "candy", "dandelion",
+            "elementary", "flabbergasted", "garage", "helicopter",
+            "igloo", "jittery", "kelps", "llama", "morning",
+            "neptune", "obscure", "psychology", "quilt", "rhinoceros",
+            "sensory", "thursday", "underneath", "vector", "whisper",
+            "xanthan", "yonder", "zealous", "hangman"
+        ]
+        var word = words[Math.floor(Math.random() * words.length)]; // pick a random word
+        var answerArray = []; // create the spaces
+        for (var i = 0; i<word.length; i++)
+        {
+            answerArray[i] = "_";
+        }
+        var remainingLetters = word.length;
+        var tries = 10;
+
+        while (remainingLetters > 0 && tries > 0)
+        {
+            alert(answerArray.join(" "));
+            var guess = prompt("Guess a letter, or click Cancel to stop playing. You have " + tries + " tries.");
+            guess = guess.toLowerCase();
+            if (guess == null) {
+                break;
+            } else if (guess.length !== 1) {
+                if (guess === word) {
+                    remainingLetters = 0;
+                } else {
+                alert("Please enter a single letter.");
+                }
+            } else {
+                console.log(guess + "\n");
+                var has = false;
+                for (var j = 0; j < word.length; j++) {
+                    if (word[j] === guess)
+                    {
+                        has = true;
+                        answerArray[j] = guess;
+                        remainingLetters--;
+                    }
+                }
+                if (!has)
+                    {
+                        --tries;
+                        alert("You have " + tries + " guesses left.");
+                    }
+            }
+        }
+        if (!tries)
+        {
+            alert("Nice try! The word was " + word);
+        } else {
+        alert("Nice job! The word was " + word);
+        }
+    </script>
+</body>
+</html>
