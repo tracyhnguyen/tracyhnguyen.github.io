@@ -14,7 +14,7 @@
     <a href = "projects.html">Click here to play!</a>
     <script>
         var name = prompt("What's your name?");
-        console.log("hello " + name);
+        console.log("hello " + name + "\nGuess Log:\n");
         var words = [
             "apricot", "breakfast", "candy", "dandelion",
             "elementary", "flabbergasted", "garage", "helicopter",
@@ -46,6 +46,7 @@
                 alert("Please enter a single letter.");
                 }
             } else {
+                console.log(guess + "\n");
                 var has = false;
                 for (var j = 0; j < word.length; j++) {
                     if (word[j] === guess)
