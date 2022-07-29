@@ -1,16 +1,20 @@
 #home {
-    background-color: rgb(235, 235, 235);
+    background-color: white;
     text-align: center;
     width:100%;
     min-width:1000px;
     height:auto;
     font-family: "Georgia";
     /* Trebuchet MS */
-    
+}
+
+#home p {
+    margin: auto;
+    font-size: 100px;
 }
 
 #about {
-    background-color: rgb(235, 235, 235);
+    background-color: white;
     text-align: center;
     width:100%;
     min-width:1000px;
@@ -21,7 +25,7 @@
 }
 
 #projects {
-    background-color: rgb(235, 235, 235);
+    background-color: white;
     text-align: center;
     width:100%;
     min-width:1000px;
@@ -32,7 +36,7 @@
 }
 
 #contact {
-    background-color: rgb(235, 235, 235);
+    background-color: white;
     text-align: center;
     width:100%;
     min-width:1000px;
@@ -40,4 +44,32 @@
     font-family: "Georgia";
     /* Trebuchet MS */
     
+}
+
+table {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td{
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    padding: 15px;
+}
+
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+#navbar {
+    background-color: rgb(215, 215, 215);
+    /*top right bottom left*/
+    padding: 15px 15px 15px;
+    text-align: right;
+}
+
+#navbar a:hover{
+    background-color: rgb(89, 58, 58);
+    color: white;
 }
