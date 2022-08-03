@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html id = "madlib">
+<head>
+    <title>Tracy Nguyen</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <div id = "navbar">
+        <ul>
+            <li><a href = "index.html">HOME</a></li>
+            <li><a href = "about.html">ABOUT</a></li>
+            <li class = "active"><a href = "projects.html">PROJECTS</a></li>
+            <li><a href = "contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+</head>
+<body>
+    <br>
+    <br>
+    <br>
+    <h1>MadLibs:</h1>
+    <table>
+        <tr>
+            <td>"First Day at School"
+                <br>
+                <a href = "madlib.html">Click Here to Play Again!</a>
+            </td>
+            <td>
+                <span>It was the first day of school at </span>
+                <span id = "verb1" class = "fill">(verb)</span> 
+                <span> </span>
+                <span id = "noun1" class = "fill">(noun)</span>
+                <span> Elementary. I was in Mr. </span>
+                <span id = "noun2" class = "fill">(noun)</span>
+                <span>'s class. He was pretty cool except that he kept </span>
+                <span id = "verbING1" class = "fill">(noun ending in ING)</span>
+                <span>. One of his rules was that there was no </span>
+                <span id = "verbING2" class = "fill">(noun ending in ING)</span>
+                <span> in class. I </span>
+                <span id = "adverb1" class = "fill">(adverb)</span>
+                <span>sat next to my best friend </span>
+                <span id = "person" class = "fill">(person)</span>
+                <span>.</span>
+            </td>
+    </table>
+
+    <script>
+        var school1 = document.getElementById("verb1");
+        console.log(school1.innerHTML);
+        var word = prompt("Enter a verb:");
+        var cap = (word.slice(0,1).toUpperCase()) + word.slice(1);
+        school1.innerHTML = cap;
+
+        var school2 = document.getElementById("noun1");
+        console.log(school2.innerHTML);
+        word = prompt("Enter a noun:");
+        var cap = (word.slice(0,1).toUpperCase()) + word.slice(1);
+        school2.innerHTML = cap;
+
+        var teacher = document.getElementById("noun2");
+        console.log(teacher.innerHTML);
+        word = prompt("Enter a noun:");
+        var cap = (word.slice(0,1).toUpperCase()) + word.slice(1);
+        teacher.innerHTML = cap;
+
+        var action = document.getElementById("verbING1");
+        console.log(action.innerHTML);
+        word = prompt("Enter a verb ending in \"ing\":");
+        action.innerHTML = word;
+
+        var rule = document.getElementById("verbING2");
+        console.log(rule.innerHTML);
+        word = prompt("Enter a verb ending in \"ing\":");
+        rule.innerHTML = word;
+
+        var feeling = document.getElementById("adverb1");
+        console.log(feeling.innerHTML);
+        word = prompt("Enter an adverb:");
+        feeling.innerHTML = word;
+
+        var lName = document.getElementById("person");
+        console.log(lName.innerHTML);
+        word = prompt("Enter a name:");
+        cap = (word.slice(0,1).toUpperCase()) + word.slice(1);
+        lName.innerHTML = cap;
+    </script>
+    
+</body>
+</html>

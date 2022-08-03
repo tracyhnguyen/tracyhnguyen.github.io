@@ -1,31 +1,41 @@
 #home {
-    background-color: white;
+    background-color: rgb(182, 194, 185);
+    /*background-color: rgb(195, 207, 198);*/
     text-align: center;
     width:100%;
     min-width:1000px;
     height:auto;
     font-family: "Georgia";
+    color: white;
     /* Trebuchet MS */
 }
 
-#home p {
+#intro {
+    padding-top: 10%;
     margin: auto;
     font-size: 100px;
 }
 
+#homedesc {
+    margin: auto;
+    font-size: 20px;
+}
+
 #about {
-    background-color: white;
+    background-color: rgb(221, 218, 208);
+    /*background-color: rgb(223, 221, 206);*/
     text-align: center;
     width:100%;
     min-width:1000px;
     height:auto;
     font-family: "Georgia";
     /* Trebuchet MS */
+    color: white;
     
 }
 
 #projects {
-    background-color: white;
+    background-color: #8ba888;
     text-align: center;
     width:100%;
     min-width:1000px;
@@ -46,30 +56,74 @@
     
 }
 
+#hangman {
+    background-color: white;
+    text-align: center;
+    width:100%;
+    min-width:1000px;
+    height:auto;
+    font-family: "Georgia";
+    /* Trebuchet MS */
+    
+}
+
 table {
-    width: 75%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
+    border-spacing: 20px;
 }
 
 td{
-    border-bottom: 1px solid #ddd;
+    border: 1px solid ;
     text-align: center;
-    padding: 15px;
+    padding: 15px 15px 15px 15px;
+    width: 25%;
 }
 
 tr:hover {
-    background-color: #f2f2f2;
+    background-color: rgb(210, 207, 198);
 }
 
-#navbar {
-    background-color: rgb(215, 215, 215);
-    /*top right bottom left*/
-    padding: 15px 15px 15px;
+/* #navbar {
+    top right bottom left
+    padding: 15px;
     text-align: right;
+    background-color: rgb(182, 194, 185);
+} */
+
+#navbar ul {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    overflow: hidden;
+    background-color: rgb(182, 194, 185);
+    list-style-type: none;
+    float: right;
+
 }
 
-#navbar a:hover{
-    background-color: rgb(89, 58, 58);
+#navbar li {
+    display: inline-block;
+}
+
+#navbar li a {
+    display: block;
     color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+#navbar li a:hover{
+    background-color: rgb(49, 64, 58);
+    color: white;
+}
+
+.active {
+    background-color: rgb(49, 64, 58);
+  }
+
+.fill {
+    color: blue;
 }
