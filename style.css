@@ -1,5 +1,5 @@
 #home {
-    background-color: rgb(182, 194, 185);
+    background-color: rgb(153, 168, 156);
     /*background-color: rgb(195, 207, 198);*/
     text-align: center;
     width:100%;
@@ -14,6 +14,7 @@
     padding-top: 10%;
     margin: auto;
     font-size: 100px;
+    display: none;
 }
 
 #homedesc {
@@ -24,7 +25,6 @@
 #about {
     background-color: rgb(221, 218, 208);
     /*background-color: rgb(223, 221, 206);*/
-    text-align: center;
     width:100%;
     min-width:1000px;
     height:auto;
@@ -34,8 +34,27 @@
     
 }
 
+#about table {
+    display: none;
+}
+
+#about td{
+    border: 1px solid ;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    width: 25%;
+}
+
+#about tr:hover {
+    background-color: rgb(205, 202, 192);
+}
+
+#about p, li{
+    text-align: left;
+}
+
 #projects {
-    background-color: #8ba888;
+    background-color: rgb(182, 194, 185);;
     text-align: center;
     width:100%;
     min-width:1000px;
@@ -43,6 +62,18 @@
     font-family: "Georgia";
     /* Trebuchet MS */
     
+}
+
+#projects td{
+    border: 1px white solid ;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+    width: 25%;
+    color: white
+}
+
+#projects tr:hover {
+    background-color: rgb(73, 99, 102);
 }
 
 #contact {
@@ -72,17 +103,6 @@ table {
     margin-left: auto;
     margin-right: auto;
     border-spacing: 20px;
-}
-
-td{
-    border: 1px solid ;
-    text-align: center;
-    padding: 15px 15px 15px 15px;
-    width: 25%;
-}
-
-tr:hover {
-    background-color: rgb(210, 207, 198);
 }
 
 /* #navbar {
@@ -126,4 +146,20 @@ tr:hover {
 
 .fill {
     color: blue;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.indent {
+    text-indent: 10%;
 }
