@@ -19,7 +19,7 @@ bold 700 italic
 */
 
 #home {
-    background-color: #bfcace;
+    background-color: #a8b8bf;
     text-align: center;
     width:100%;
     min-width:1000px;
@@ -70,7 +70,7 @@ header {
 }
 
 #about tr:hover {
-    background-color: rgb(205, 202, 192);
+    background-color: #afbdc2;
 }
 
 #about p, li{
@@ -151,7 +151,7 @@ nav li a {
     text-decoration: none;
     padding: 15px 20px 15px 20px; /*top left down right*/
 
-  }
+}
 
 nav li a:hover{
     color: rgb(116, 10, 10);
