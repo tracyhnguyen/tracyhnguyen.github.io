@@ -50,7 +50,7 @@ header {
 #about {
     background-color: #bfcace;
     width:100%;
-    min-width:1000px;
+    min-width:1100px;
     height:auto;
     font-family: "Georgia";
     /* Trebuchet MS */
@@ -66,7 +66,11 @@ header {
     border: 1px solid ;
     text-align: center;
     padding: 15px 15px 15px 15px;
-    width: 25%;
+}
+
+#about td:nth-child(1){
+    padding: 15px 15px 15px 15px;
+    width: 30%;
 }
 
 #about tr:hover {
@@ -101,7 +105,7 @@ header {
 }
 
 #contact {
-    background-color: white;
+    background-color: #bfcace;
     text-align: center;
     width:100%;
     min-width:1000px;
@@ -123,7 +127,7 @@ header {
 }
 
 table {
-    width: 50%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     border-spacing: 20px;
