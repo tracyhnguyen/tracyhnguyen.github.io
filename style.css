@@ -47,7 +47,7 @@ header {
     font-size: 20px;
 }
 
-#about {
+#about, #projects, #hangman, #madlib, #contact {
     background-color: #bfcace;
     width:100%;
     min-width:1100px;
@@ -55,7 +55,6 @@ header {
     font-family: "Georgia";
     /* Trebuchet MS */
     color: white;
-    
 }
 
 #about table {
@@ -81,17 +80,6 @@ header {
     text-align: left;
 }
 
-#projects {
-    background-color: rgb(182, 194, 185);;
-    text-align: center;
-    width:100%;
-    min-width:1000px;
-    height:auto;
-    font-family: "Georgia";
-    /* Trebuchet MS */
-    
-}
-
 #projects td{
     border: 1px white solid ;
     text-align: center;
@@ -101,29 +89,22 @@ header {
 }
 
 #projects tr:hover {
-    background-color: rgb(73, 99, 102);
+    background-color: #afbdc2;
 }
 
-#contact {
-    background-color: #bfcace;
+#contact td {
+    border: 1px solid white;
     text-align: center;
-    width:100%;
-    min-width:1000px;
-    height:auto;
-    font-family: "Georgia";
-    /* Trebuchet MS */
-    
+    padding: 15px 15px 15px 15px;
 }
 
-#hangman {
-    background-color: white;
-    text-align: center;
-    width:100%;
-    min-width:1000px;
-    height:auto;
-    font-family: "Georgia";
-    /* Trebuchet MS */
-    
+#contact td:nth-child(1) {
+    padding: 15px 15px 15px 15px;
+    width: 30%;
+}
+
+#contact tr:hover {
+    background-color: #afbdc2;
 }
 
 table {
@@ -158,9 +139,9 @@ nav li a {
 }
 
 nav li a:hover{
-    color: rgb(116, 10, 10);
+    color: #246d83;
     text-decoration: underline;
-    text-decoration-color: rgb(151, 42, 42);
+    text-decoration-color: #7ba2af;
     text-decoration-thickness: 2px;
     text-underline-offset: 10px;
 }
@@ -178,8 +159,8 @@ button {
 }
 
 button:hover {
-    border: 1px solid rgb(146, 31, 31);
-    color: rgb(162, 25, 25);
+    border: 1px solid #246d83;
+    color: #246d83;
     background-color: white;
 }
 
