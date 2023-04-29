@@ -107,6 +107,13 @@ header {
     background-color: #afbdc2;
 }
 
+.socials li{
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+    padding: 20px 20px 20px 20px;
+}
+
 table {
     width: 60%;
     margin-left: auto;
