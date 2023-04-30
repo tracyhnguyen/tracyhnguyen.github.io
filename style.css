@@ -108,6 +108,10 @@ header {
     padding: 15px 15px 15px 15px;
 }
 
+.graphicsprojects td:nth-child(2) {
+    width: 500px;
+}
+
 .graphics img {
     float: left;
     padding: 5px 5px 5px 5px;
