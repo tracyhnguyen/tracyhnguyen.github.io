@@ -47,7 +47,7 @@ header {
     font-size: 20px;
 }
 
-#about, #projects, #hangman, #madlib, #contact {
+#about, #projects, #graphics, #hangman, #madlib, #contact {
     background-color: #bfcace;
     width:100%;
     min-width:1100px;
@@ -92,13 +92,53 @@ header {
     background-color: #afbdc2;
 }
 
+.graphics {
+    width: 80%;
+    text-align: center;
+    border: 1px solid white;
+}
+
+.graphics, .graphicsprojects tr:hover {
+    background-color: #afbdc2;
+}
+
+.graphicsprojects td {
+    border: 1px solid ;
+    text-align: center;
+    padding: 15px 15px 15px 15px;
+}
+
+.graphics img {
+    float: left;
+    padding: 5px 5px 5px 5px;
+}
+
+#hangman td {
+    text-align: center;
+    border: 1px white solid;
+}
+
+#hangman tr:hover {
+    background-color: #afbdc2;
+}
+
+#madlib td {
+    text-align: center;
+    border: 1px white solid;
+    padding: 15px 15px 15px 15px;
+}
+
+#madlib tr:hover {
+    background-color: #afbdc2;
+}
+
 #contact td {
     border: 1px solid white;
     text-align: center;
     padding: 15px 15px 15px 15px;
 }
 
-#contact td:nth-child(1) {
+#contact td{
     padding: 15px 15px 15px 15px;
     width: 30%;
 }
@@ -176,7 +216,7 @@ button:hover {
     text-decoration-color: white;
     text-decoration-thickness: 2px;
     text-underline-offset: 10px;
-  }
+}
 
 .fill {
     color: blue;
