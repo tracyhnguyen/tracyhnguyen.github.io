@@ -23,8 +23,9 @@ OLD COLOR PALETTE:
 Background: #a8b8bf
 */
 
-#home, #about, #projects, #contact {
+body {
     background-color: #030220;
+    cursor: url(files/cursor.svg), grab;
 }
 
 #home{
@@ -35,7 +36,6 @@ Background: #a8b8bf
     font-family: "Roboto", sans-serif;
     color: white;
     font-weight: 300;
-    /* Trebuchet MS */
 }
 
 header {
@@ -56,12 +56,10 @@ header {
 }
 
 #about, #projects, #graphics, #hangman, #madlib, #contact {
-    background-color: #bfcace;
     width:100%;
     min-width:1100px;
     height:auto;
     font-family: "Georgia";
-    /* Trebuchet MS */
     color: white;
 }
 
