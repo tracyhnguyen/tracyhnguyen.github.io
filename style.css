@@ -18,15 +18,23 @@ bold 700
 bold 700 italic
 */
 
-#home {
-    background-color: #a8b8bf;
+/*
+OLD COLOR PALETTE:
+Background: #a8b8bf
+*/
+
+#home, #about, #projects, #contact {
+    background-color: #030220;
+}
+
+#home{
     text-align: center;
     width:100%;
     min-width:1000px;
     height:auto;
-    font-family: "Playfair Display", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: white;
-    font-weight: 600;
+    font-weight: 300;
     /* Trebuchet MS */
 }
 
