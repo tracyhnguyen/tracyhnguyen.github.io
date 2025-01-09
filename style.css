@@ -21,11 +21,12 @@ bold 700 italic
 /*
 OLD COLOR PALETTE:
 Background: #a8b8bf
+Hover: #afbdc2
+Link Hover: 246d83
 */
 
 body {
-    background-color: #030220;
-    cursor: url(files/cursor.svg), grab;
+    background-color: #030214;
 }
 
 #home{
@@ -79,7 +80,7 @@ header {
 }
 
 #about tr:hover {
-    background-color: #afbdc2;
+    background-color: #ffffff2a;
 }
 
 #about p, li{
@@ -95,7 +96,7 @@ header {
 }
 
 #projects tr:hover {
-    background-color: #afbdc2;
+    background-color: #ffffff2a;
 }
 
 .graphics {
@@ -105,7 +106,7 @@ header {
 }
 
 .graphics, .graphicsprojects tr:hover {
-    background-color: #afbdc2;
+    background-color: #ffffff2a;
 }
 
 .graphicsprojects td {
@@ -129,7 +130,7 @@ header {
 }
 
 #hangman tr:hover {
-    background-color: #afbdc2;
+    background-color: #ffffff2a;
 }
 
 #madlib td {
@@ -139,7 +140,7 @@ header {
 }
 
 #madlib tr:hover {
-    background-color: #afbdc2;
+    background-color: #ffffff2a;
 }
 
 #contact td {
@@ -154,7 +155,7 @@ header {
 }
 
 #contact tr:hover {
-    background-color: #afbdc2;
+    background-color: #ffffff2a;
 }
 
 .socials li{
@@ -185,51 +186,44 @@ nav li {
 
 nav li a {
     font-family: 'Roboto';
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
     letter-spacing: 1px;
     color: white;
     text-align: center;
     text-decoration: none;
-    padding: 15px 20px 15px 20px; /*top left down right*/
+    padding: 15px 20px 10px 20px; /*top left down right*/
 
 }
 
 nav li a:hover{
-    color: #246d83;
-    text-decoration: underline;
-    text-decoration-color: #7ba2af;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 10px;
+    color: #9797a0;
+    text-decoration-color: #f1f1f1;
 }
 
 button {
     font-family: 'Roboto';
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
     border: 1px solid;
-    padding: 12px 18px;
+    padding: 6px 14px;
     color: white;
-    background-color: #8daeb9;
+    background-color: #030220;
     border-radius: 50px;
 }
 
 button:hover {
-    border: 1px solid #246d83;
-    color: #246d83;
+    border: 1px solid #e8eaeb;
+    color: #030220;
     background-color: white;
 }
 
 .active {
     text-decoration: underline;
     text-decoration-color: white;
-    text-decoration-thickness: 2px;
-    text-underline-offset: 10px;
-}
-
-.fill {
-    color: blue;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 6px;
 }
 
 .left {
