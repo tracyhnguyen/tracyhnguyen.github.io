@@ -201,6 +201,11 @@ nav li a:hover{
     text-decoration-color: #f1f1f1;
 }
 
+.tags {
+    list-style-type: none;
+    display: inline;
+}
+
 button {
     font-family: 'Roboto';
     font-size: 14px;
