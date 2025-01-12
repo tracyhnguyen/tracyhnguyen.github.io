@@ -172,6 +172,18 @@ table {
     border-spacing: 20px;
 }
 
+/* Skill Tags*/
+.tags li{
+    list-style-type: none;
+    display: inline;
+    float: left;
+}
+.tags button{
+    font-size: 10px;
+    margin: 3;
+    padding: 3;
+}
+
 nav ul {
     margin-top: 10px;
     overflow: hidden;
@@ -199,11 +211,6 @@ nav li a {
 nav li a:hover{
     color: #9797a0;
     text-decoration-color: #f1f1f1;
-}
-
-.tags {
-    list-style-type: none;
-    display: inline;
 }
 
 button {
